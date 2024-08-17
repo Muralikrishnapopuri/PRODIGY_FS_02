@@ -1,4 +1,4 @@
-const BASE_URL = 'http://localhost:2202';
+const BASE_URL = 'https://prodigy-fs-02.onrender.com';
 
 export const GetAllEmployees = async (search = '', page = 1, limit = 5) => {
     const url =
